@@ -1,0 +1,22 @@
+.product_wrap {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product_wrap h2 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.product_showmore {
+  background-color: #ffffff;
+  color: #b88e2f;
+  border: 1px solid #b88e2f;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 30px;
+}
