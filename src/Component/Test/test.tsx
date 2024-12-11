@@ -16,7 +16,14 @@ type TestProps = {
 }
 const Test = (props: TestProps) => {
     const { name, nameProps, testerProps } = props
-    return <div>TesttttttttttttS</div>
+    return (
+        <div>
+            TesttttttttttttS
+            <h1> {name}</h1>
+            <span> {nameProps.name.firstname}</span>
+            <span> {testerProps.test.first}</span>
+        </div>
+    )
 }
 
 export default Test
